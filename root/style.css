@@ -495,3 +495,91 @@
     margin-top: 30px;
     color: #000000;
 }
+
+@media (max-width: 80em){
+    .main_content{
+        margin: 100px 0px 0px 20px;
+    }
+    .name_navigation_h1{
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 62em){
+    .container_image_right{
+        margin: 0px 10px;
+    }
+
+    .hand_left{
+        display: none;
+    }
+    .main_section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio_section2{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .resume_section2{
+        margin: 0 auto;
+    }
+    .section2_title{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 53em){
+    .container_image_right{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    .main_content{
+        margin: 30px 30px;
+    }
+    .resume_section2{
+        margin: 0 30px;
+    }
+
+    .row_cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 30px auto;
+    }
+
+    .container_section3{
+        padding: 20px;
+    }
+
+    .div_recentprojects{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .div_recentprojects_header{
+        text-align: center;
+    }
+    .div_recentprojects_header_right{
+        margin: 0 auto;
+    }
+
+    .cards_section5{
+        flex-direction: column;
+    }
+    .card_section5{
+        margin: 20px auto;
+    }
+}
+
+
+@media (max-width: 30em){
+    .container_portfolio{
+        flex-direction: column;
+    }
+}
